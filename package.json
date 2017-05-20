@@ -1,0 +1,25 @@
+{
+  "name": "csvviewerplus",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "csvviewerplus": "./core/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "argv": "0.0.2",
+    "byline": "^5.0.0",
+    "csvtojson": "^1.1.5",
+    "extend": "^3.0.1",
+    "jQuery": "^1.7.4",
+    "jquery-deferred": "^0.3.1",
+    "node-csv": "^0.1.2",
+    "object-hash": "^1.1.8",
+    "sqlite3": "^3.1.8",
+    "when": "^3.7.8"
+  }
+}
